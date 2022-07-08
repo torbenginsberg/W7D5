@@ -5,14 +5,30 @@ ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
-
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    vertical-align: inherit;
+    box-sizing: inherit;
+    background: transparent;
 }
 
 ul {
 
+    list-style: none; /*removes bullets from list items*/
+
 }
 
 img {
+
+    display: block;
+    width: 100%; /*elements expand to full width of parent container */
+    height: auto; /*height grows proportionally*/
 
 }
 
@@ -23,9 +39,16 @@ input[type="submit"],
 textarea,
 button {
 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /*removes default platform styling from form input elements*/
+
 }
 
 button,
 input[type="submit"] {
+
+    cursor: pointer;
+    /*shows little pointer hand on buttons*/
 
 }
