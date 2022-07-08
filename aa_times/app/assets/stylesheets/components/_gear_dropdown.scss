@@ -1,1 +1,14 @@
 // Use the gear_dropdown.png screenshot as a style guide
+#gear-dropdown-btn{
+	position: relative;
+	padding: 7px 9px;
+}
+
+#gear-dropdown-btn:hover .gear-dropdown{
+	display: block;
+}
+
+
+.gear-dropdown {
+    display: none;
+}
