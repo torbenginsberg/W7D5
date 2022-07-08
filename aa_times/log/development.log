@@ -11983,3 +11983,18 @@ Started GET "/assets/application.self-a01b6ee08908b20b48b3f7a96a16b33e7f23cb63b0
 Started GET "/assets/application.self-a01b6ee08908b20b48b3f7a96a16b33e7f23cb63b09f9ae2e97b52a0b15c6d9f.css?body=1&livereload=1657309294652" for ::1 at 2022-07-08 15:41:34 -0400
 Started GET "/assets/application.self-a01b6ee08908b20b48b3f7a96a16b33e7f23cb63b09f9ae2e97b52a0b15c6d9f.css?body=1&livereload=1657309303692" for ::1 at 2022-07-08 15:41:43 -0400
 Started GET "/assets/application.self-a01b6ee08908b20b48b3f7a96a16b33e7f23cb63b09f9ae2e97b52a0b15c6d9f.css?body=1&livereload=1657309303693" for ::1 at 2022-07-08 15:41:43 -0400
+Started GET "/" for ::1 at 2022-07-08 15:43:25 -0400
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.6ms)
+  Rendered shared/_main_nav.html.erb (4.0ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0a375b6864595d9da75bfd2344bda5bb4fc38d887e15f5f3b0641a7fa0f54db9.css?body=1" for ::1 at 2022-07-08 15:43:25 -0400
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2022-07-08 15:43:25 -0400
